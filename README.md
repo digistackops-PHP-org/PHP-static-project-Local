@@ -1,3 +1,5 @@
+## Launch "t2.micro" Ec2 Instance and Open port "8000" in security Group 
+
 # Install PHP
 ```
 sudo yum install -y php php-cli php-common php-mbstring php-xml php-curl php-json php-zip php-devel php-opcache php-pdo php-mysqlnd
