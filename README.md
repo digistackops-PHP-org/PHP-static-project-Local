@@ -5,7 +5,7 @@ sudo yum install -y php php-cli php-common php-mbstring php-xml php-curl php-jso
 php -v
 ```
 
-# Install Composer
+# Install Dependencies
 ```
 cd ~
 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
@@ -15,10 +15,19 @@ php -r "unlink('composer-setup.php');"
 
 composer -V
 ```
-
+# Get the Code 
+```
+sudo yum install git -y
+sudo git clone https://github.com/techizone-Small-Project-org/PHP-static-project.git
+cd PHP-static-project/
+git checkout 01-Local-setup 
+```
 # Start your Project
 ```
-cd /path/to/Jenkins-Php-Code
 composer install
 php -S 0.0.0.0:8000 -t public
+```
+open Browser and Check App is working or Not
+```
+http://<Your-Public-IP>:8000
 ```
