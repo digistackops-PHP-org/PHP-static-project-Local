@@ -20,8 +20,8 @@ composer -V
 # Get the Code 
 ```
 sudo yum install git -y
-sudo git clone https://github.com/techizone-Small-Project-org/PHP-static-project.git
-cd PHP-static-project/
+sudo git clone https://github.com/digistackops-PHP-org/PHP-static-project-Local.git
+cd PHP-static-project-Local/
 git checkout 01-Local-setup 
 ```
 # Start your Project
