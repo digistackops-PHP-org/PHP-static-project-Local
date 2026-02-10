@@ -22,7 +22,7 @@ composer -V
 sudo yum install git -y
 sudo git clone https://github.com/digistackops-PHP-org/PHP-static-project-Local.git
 cd PHP-static-project-Local/
-git checkout 01-Local-setup 
+git checkout 01-Local-setup-v1
 ```
 # Start your Project
 ```
