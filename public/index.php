@@ -26,7 +26,7 @@ $ip = gethostbyname($hostname);
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            background-color: #f1c40f;
+            background-color: #f1660f;
             font-family: Arial, sans-serif;
         }
         .content {
